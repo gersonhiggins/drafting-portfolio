@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul li {    
+    font-size: 1.5rem;
+    display: none;
+}
+.gh {
+    display: flex;
+    flex-direction: column; 
+}
+.logo {
+    font-family: 'Vibur';
+    font-size: 4rem;
+    color: white;
+}
+
+.under-logo {
+    position: relative; 
+    top: -25px;
+    left: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.underline {
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #61dafb;
+    left: 0;
+    top: 120px;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+   nav ul li{
+    display: none;
+   } 
+}
